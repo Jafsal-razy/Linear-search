@@ -9,15 +9,15 @@ def search(arr, N, x):
  
 # Driver Code below
 if __name__ == "__main__":
-    arr = [2, 3, 4, 10, 40]
+    arr = [2, 3, 4, 10, 40, 60, 152]
     x = 10
     N = len(arr)
  
     # Function call
     result = search(arr, N, x)
     if(result == -1):
-        print("Element is not present in array")
+        print("Element is not present in array : ")
     else:
-        print("Element is present at index", result)
+        print("Element is present at index :", result)
 
       # End
